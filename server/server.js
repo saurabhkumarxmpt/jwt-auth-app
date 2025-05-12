@@ -10,11 +10,11 @@ app.use(cors());
 app.use(express.json());
 
 //database
-database()
+database();
 
 //first route of the server
 app.get('/',(req,res)=>{
-    res.json({message:'this is start page'})
+    res.json({message:'this is start page'});
 });
 
 
