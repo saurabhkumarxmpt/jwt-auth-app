@@ -58,6 +58,20 @@ This is a simple authentication system built using the **MERN** stack (MongoDB, 
 
 ---
 
+## 🔥 Screenshots
+
+### 📝 Signup Page
+![Signup Page](client/src/assets/signup.png)
+
+### 🔐 Login Page
+![Login Page](client/src/assets/login.png)
+
+### 👤 Profile Page
+![Profile Page](client/src/assets/profile.png)
+
+
+---
+
 ### How to Test
 
 1. **Sign Up**: Go to the signup page, enter your name,username,email and password, and submit. You'll get a welcome email.
