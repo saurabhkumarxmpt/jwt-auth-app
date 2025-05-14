@@ -1,6 +1,14 @@
 # JWT Authentication System in MERN Stack
 
-This is a simple authentication system built using the **MERN** stack (MongoDB, Express.js, React.js, Node.js). It includes user signup, login,profile and welcome email notification.
+This is a simple authentication system built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This is my second project using MERN.
+
+In this app, users can sign up and they receive a welcome email after registration. I'm using JWT for authentication and Bcrypt to hash passwords.
+
+I haven't added the "Forgot Password" feature yet, but I plan to include it in the coming days.
+
+Overall, it's a basic auth system where I focused on learning how signup, login, tokens, and email services work together.
+
+
 
 ### Features
 
