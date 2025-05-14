@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {Link} from 'react-router-dom'
+import {Link,useNavigate} from 'react-router-dom'
 import axios from 'axios';
 
 const Login=()=>{
@@ -9,12 +9,15 @@ const Login=()=>{
             password:''
         });
 
+        const navigate=useNavigate();
+
         const handleSubmit=async(e)=>{
                 e.preventDefault();
                 try{
                     const res=await axios.post('http://localhost:3000/auth/login',user);
                     alert("login succesful");
                     localStorage.setItem('token',res.data.token);
+                    navigate('/profile');
                 }catch(err){
                     alert('login faild');
                     console.log(user);
